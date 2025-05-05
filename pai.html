@@ -1,0 +1,455 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mental health</title>
+
+  <!-- Import Font Poppins dari Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN (kalau pakai) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-blue-500 to-purple-600 sticky top-0 z-50 shadow-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="#" class="flex items-center pl-2 space-x-2">
+              <img src="gambar 10.png" alt="Logo" class="w-15 h-16">
+            </a>
+            <a href="#" class="text-xl font-bold text-white">Agama Islam</a>
+          </div>
+          <div class="hidden md:flex md:items-center space-x-6">
+            <a href="#" class="text-white hover:text-blue-600">Home</a>
+            <a href="#" class="text-white hover:text-blue-600">About</a>
+            <a href="#" class="text-white hover:text-blue-600">Services</a>
+            <a href="#" class="text-white hover:text-blue-600">Contact</a>
+          </div>
+
+          <!-- Mobile button -->
+          <div class="flex items-center md:hidden">
+            <button
+              id="menu-button"
+              class="text-gray-600 hover:text-blue-600 focus:outline-none"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a href="#Home" class="block text-gray-600 hover:text-blue-600">Home</a>
+          <a href="#about" class="block text-gray-600 hover:text-blue-600">About</a>
+          <a href="#" class="block text-gray-600 hover:text-blue-600"
+            >Services</a
+          >
+          <a href="#" class="block text-gray-600 hover:text-blue-600"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+<!-- Parallax Section dengan Gambar -->
+<section  id="HOME"class="relative h-[500px] bg-fixed bg-center bg-cover bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');">
+  <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+    <div class="text-center text-white px-6 py-20">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَا
+         إِن نَّسِينَا أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ
+      </h1>
+      <p class="text-lg md:text-xl max-w-7xl mx-auto drop-shadow-md">"Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya. Ia mendapat pahala dari apa yang diusahakannya dan ia mendapat siksa dari apa yang dikerjakannya. 
+        (Mereka berdoa): "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami salah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat seperti yang telah Engkau bebankan kepada orang-orang yang sebelum kami. 
+        Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tidak sanggup kami pikul. Maafkanlah kami, ampunilah kami dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap orang-orang yang kafir.
+        " al-baqoroh 286"
+        .</p>
+    </div>
+  </div>
+</section>
+    <!-- Tagline Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-gray-800 text-gray-100 py-20">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          mental health melalui bertasawuf
+        </h1>
+        <p class="text-lg md:text-xl mb-8  text-white">
+          Dalam kehidupan modern yang penuh tekanan, kesehatan mental menjadi sangat penting.
+            tasawuf, sebagai dimensi spiritual Islam, menawarkan jalan menuju ketenangan batin 
+            dan kebahagiaan sejati.
+        </p>
+        <a
+          href="#"
+          class="px-6 py-3 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-200 transition "
+        >
+          Pelajari Lebih Lanjut
+        </a>
+      </div>
+    </section>
+    <!-- Articles Section -->
+    <!-- Single Article Section -->
+    <section id="about"class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-100">
+        <!-- Article Header -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+          kesehatan mental
+          </h2>
+          <p class="text-lg text-gray-600">
+            kondisi kesejahteraan emosional, psikologis, dan sosial yang memengaruhi cara seseorang berpikir, merasa, bertindak, serta menghadapi stres dan berinteraksi dengan orang lain.
+          </p>
+        </div>
+<!-- Section: Kesehatan Mental -->
+<section class="bg-white text-gray-800 py-20 px-6">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-12">Komponen Utama Kesehatan Mental</h2>
+
+    <!-- Komponen Utama -->
+    <div class="grid md:grid-cols-3 gap-8 mb-20">
+      <div class="bg-[#FAF3E0] p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold mb-3 text-blue-700">Emosional</h3>
+        <p>Mampu mengelola emosi, stres, dan kekecewaan dengan bijak.</p>
+      </div>
+      <div class="bg-[#FAF3E0] p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold mb-3 text-green-700">Psikologis</h3>
+        <p>Merasa percaya diri, mampu fokus, dan memiliki harga diri yang sehat.</p>
+      </div>
+      <div class="bg-[#FAF3E0] p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-xl font-semibold mb-3 text-purple-700">Sosial</h3>
+        <p>Mampu menjalin hubungan sehat dan mendukung orang lain serta diri sendiri.</p>
+      </div>
+    </div>
+
+    <!-- Tanda-tanda -->
+    <div class="grid md:grid-cols-2 gap-10 mb-20">
+      <div>
+        <h3 class="text-2xl font-semibold mb-4 text-green-700">Tanda-tanda Kesehatan Mental yang Baik</h3>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Merasa puas dengan hidup.</li>
+          <li>Mampu mengatasi tekanan sehari-hari.</li>
+          <li>Produktif di sekolah, kerja, atau aktivitas lainnya.</li>
+          <li>Memiliki hubungan yang sehat.</li>
+          <li>Mampu menghadapi perubahan atau tantangan hidup.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-4 text-red-600">Tanda-tanda Masalah Kesehatan Mental</h3>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Perasaan sedih berkepanjangan atau tidak wajar.</li>
+          <li>Kehilangan minat pada hal-hal yang biasanya disukai.</li>
+          <li>Mudah marah, gelisah, atau cemas berlebihan.</li>
+          <li>Perubahan pola tidur atau nafsu makan.</li>
+          <li>Menarik diri dari keluarga dan teman.</li>
+          <li>Pikiran untuk menyakiti diri sendiri atau bunuh diri.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Cara Menjaga -->
+    <h3 class="text-2xl font-semibold mb-6 text-center text-blue-700">Cara Menjaga Kesehatan Mental</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>🛌 Tidur cukup dan makan bergizi.</p>
+      </div>
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>🏃 Rutin berolahraga dan aktif secara fisik.</p>
+      </div>
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>🗣️ Curhat ke orang yang dipercaya.</p>
+      </div>
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>🎨 Luangkan waktu untuk hal yang menyenangkan.</p>
+      </div>
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>🚫 Hindari alkohol atau obat-obatan terlarang.</p>
+      </div>
+      <div class="bg-white border border-gray-200 p-5 rounded-lg shadow hover:shadow-md transition">
+        <p>👩‍⚕️ Konsultasi ke psikolog jika perlu bantuan profesional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Parallax Section dengan Gambar -->
+<section class="relative h-[500px] bg-fixed bg-center bg-cover bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');">
+  <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+    <div class="text-center text-white px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Kesehatan Mental Dimulai dari Jiwa yang Tenang</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md">Temukan kedamaian melalui tasawuf, refleksi diri, dan kepedulian sosial di tengah dunia yang penuh tekanan.</p>
+    </div>
+  </div>
+</section>
+        <!-- Article Content -->
+        <div class="bg-white rounded shadow-lg overflow-hidden">
+          <div class="px-5 py-6">
+            <p class="text-gray-700 mb-4">
+              🛌 Tidur Cukup dan Makan Bergizi :
+              Tidur yang cukup (7–9 jam per malam) sangat penting untuk memulihkan energi dan menjaga kestabilan emosi. Kurang tidur dapat menyebabkan mudah marah, stres, dan gangguan konsentrasi. Selain itu, asupan makanan bergizi seperti buah, sayur, protein, dan lemak sehat membantu menjaga keseimbangan hormon dan fungsi otak.
+
+            </p>
+
+            <p class="text-gray-700 mb-4">
+              🏃 Rutin Berolahraga dan Aktif Secara Fisik
+              Aktivitas fisik seperti jalan kaki, berlari, atau olahraga ringan lainnya dapat meningkatkan produksi hormon endorfin yang membuat suasana hati lebih baik. Olahraga juga membantu mengurangi stres, memperbaiki kualitas tidur, dan menurunkan risiko gangguan mental seperti depresi dan kecemasan.
+            </p>
+
+            <p class="text-gray-700 mb-4">
+              🗣️ Curhat ke Orang yang Dipercaya
+              Membicarakan perasaan dengan teman, keluarga, atau orang yang kamu percayai bisa sangat melegakan. Curhat membantu meringankan beban pikiran dan membuat kita merasa didengar dan dimengerti. Dukungan sosial adalah salah satu faktor penting dalam menjaga kesehatan mental.
+            </p>
+
+            <p class="text-gray-700 mb-4">
+              🎨 Luangkan Waktu untuk Hal yang Menyenangkan
+              Melakukan aktivitas yang disukai seperti hobi, seni, musik, membaca, atau rekreasi bisa menjadi cara ampuh untuk melepaskan stres. Kegiatan menyenangkan memberi ruang bagi pikiran untuk istirahat dan memberikan energi positif dalam hidup.
+              
+              
+            </p>
+
+            <p class="text-gray-700 mb-4">
+              🚫 Hindari Alkohol atau Obat-obatan Terlarang
+              Penggunaan zat berbahaya dapat memperparah gangguan mental dan fisik. Alkohol dan narkoba mungkin terasa memberi "pelarian", tapi justru dapat merusak fungsi otak, memperparah stres, dan membuat ketergantungan. Jauhi hal-hal ini demi kesehatan jangka panjang.
+            </p>
+
+            <p class="text-gray-700 mb-8">
+              👩‍⚕️ Konsultasi ke Psikolog Jika Perlu Bantuan Profesional
+              Jika kamu merasa kewalahan, sedih berkepanjangan, atau mengalami kesulitan mengelola emosi, jangan ragu untuk mencari bantuan dari tenaga profesional seperti psikolog atau psikiater. Mereka memiliki keahlian untuk membantu melalui terapi dan pendekatan ilmiah yang sesuai.
+            </p>
+            <!-- Call to Action Button -->
+            <div class="text-center">
+              <a
+                href="#"
+                class="px-8 py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition"
+              >
+                Pelajari Lebih Lanjut
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+    </ul>
+    <!-- Section Artikel: Tasawuf dan Kesehatan Mental -->
+<section class="bg-[#FAF3E0] text-gray-800 py-20 px-6">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-6">Menghadapi Krisis Kesehatan Mental dengan Tasawuf</h2>
+    <p class="text-lg mb-6 text-justify">
+      Di zaman modern ini, tekanan hidup semakin berat — dari tuntutan pekerjaan, masalah finansial, sampai tekanan sosial di media. Akibatnya, banyak orang, khususnya generasi milenial, mengalami stres, kecemasan, bahkan depresi.
+    </p>
+    <p class="text-lg mb-10 text-justify">
+      Salah satu jalan untuk mengatasi masalah ini adalah <strong>tasawuf</strong>, yaitu seni mendekatkan diri kepada Tuhan dengan hati yang bersih dan perilaku yang baik.
+    </p>
+
+    <h3 class="text-2xl font-semibold mb-3 text-blue-700">🔹 Apa yang Kami Bahas?</h3>
+
+    <div class="space-y-6 text-lg text-justify">
+      <div>
+        <strong>Hubungan Kehidupan Modern dan Masalah Psikologis</strong><br>
+        Kehidupan yang serba cepat dan penuh tuntutan sering membuat orang kehilangan keseimbangan emosional. Kesenjangan sosial dan gaya hidup materialistik juga memperparah masalah ini.
+      </div>
+
+      <div>
+        <strong>Tasawuf sebagai Terapi Jiwa</strong><br>
+        Praktik tasawuf — seperti berdzikir, merenung (tafakur), dan meningkatkan cinta kasih — membantu membersihkan hati dari kegelisahan, meningkatkan rasa damai, dan membangun hubungan yang lebih erat dengan Tuhan.
+      </div>
+
+      <div>
+        <strong>Peran Keluarga, Masyarakat, dan Pemerintah</strong><br>
+        Kesehatan mental tidak bisa ditangani sendirian. Keluarga perlu menciptakan lingkungan yang suportif, masyarakat harus saling peduli, dan pemerintah perlu menyediakan fasilitas kesehatan mental yang mudah diakses.
+      </div>
+
+      <div>
+        <strong>Tasawuf dan Pembentukan Akhlak Mulia</strong><br>
+        Melalui tasawuf, seseorang dilatih untuk sabar dalam ujian, penuh kasih dalam berhubungan dengan orang lain, dan tenang dalam menghadapi masalah. Inilah bekal untuk hidup lebih bahagia dan bermakna.
+      </div>
+    </div>
+
+    <div class="mt-10 text-lg text-justify">
+      <h3 class="text-2xl font-semibold mb-3 text-green-700">🔹 Mengapa Ini Penting?</h3>
+      <p>
+        Kebahagiaan sejati tidak hanya datang dari harta, jabatan, atau popularitas. Dengan memperdalam nilai-nilai spiritual, kita bisa merasakan kebahagiaan batin yang lebih abadi — kebahagiaan yang tidak mudah goyah oleh perubahan dunia.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- Single Article Section -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4">
+        <!-- Article Header -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+            Stigma terhadap Kesehatan Mental
+          </h2>
+          <p class="text-lg text-gray-600">
+            Masih banyak masyarakat yang menganggap kesehatan mental sebagai hal tabu atau lemah, padahal sama pentingnya dengan kesehatan fisik. Edukasi dan empati sangat penting untuk mengurangi stigma ini.
+          </p>
+        </div>
+    <!-- Services Section -->
+    <!-- Services Section with Images -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+          Nama pengembang website Mental health
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12"></h2>
+           motivasi Kami untuk Teman Teman
+        </h2> 
+      </h2>
+
+      <!-- Baris 1: 3 Kolom -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-white p-8 rounded shadow hover:shadow-lg transition">
+          <img src="gambar 3.jpg" class="w-full h-50 object-cover rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Muhammad Rifqi Iqbal Ghufron</h3>
+          <p class="text-gray-600">
+            Cinta kepada dunia menjauhkanmu dari Tuhan, sedangkan cinta kepada Tuhan menjauhkanmu dari dunia.
+          </p>
+        </div>
+      
+        <!-- Service 2 -->
+        <div class="bg-white p-8 rounded shadow hover:shadow-lg transition">
+          <img src="gambar 4.jpg" class="w-full h-50 object-cover rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Leony Andika Triwicaksono</h3>
+          <p class="text-gray-600">
+            Bukan banyaknya amal yang mengangkat derajatmu, tapi keikhlasan di balik amal itu.
+          </p>
+        </div>
+      
+        <!-- Service 3 -->
+        <div class="bg-white p-8 rounded shadow hover:shadow-lg transition">
+          <img src="gambar 11.jpg" class="w-full h-50 object-cover rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Muhammad Dzkri Azkia Ridwani</h3>
+          <p class="text-gray-600">
+            Tinggalkan segala yang mengganggu jiwamu, karena Allah hanya menetap di hati yang tenang.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Baris 2: 2 Kolom di Tengah -->
+      <div class="flex flex-col md:flex-row justify-center gap-8 mt-8">
+        <!-- Service 4 -->
+        <div class="bg-white p-8 rounded shadow hover:shadow-lg transition w-full md:w-1/3">
+          <img src="gambar 6.jpg" class="w-full h-50 object-cover rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Gilang Kelvin Saputra</h3>
+          <p class="text-gray-600">
+            Tuhan tidak pernah jauh. Kitalah yang sibuk dengan dunia hingga lupa arah pulang.
+          </p>
+        </div>
+      
+        <!-- Service 5 -->
+        <div class="bg-white p-8 rounded shadow hover:shadow-lg transition w-full md:w-1/3">
+          <img src="gambar 8.jpg"  class="w-full h-50 object-cover rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Izha Valensy</h3>
+          <p class="text-gray-600">
+            Jika hatimu remuk, mungkin itu caranya Allah membuat ruang untuk-Nya masuk
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- JavaScript: JIB Parallax Effect -->
+<script>
+  const parallax = document.getElementById('parallax');
+  window.addEventListener('scroll', function () {
+    const offset = window.pageYOffset;
+    parallax.style.transform = 'translateY(' + offset * 0.5 + 'px)';
+  });
+</script>
+
+</section>
+    <!-- Footer Section -->
+    <footer class="bg-white border-t border-gray-200 mt-10">
+      <div
+        class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-600"
+      >
+        <!-- About -->
+        <div>
+          <h3 class="text-xl font-bold text-blue-600 mb-4">Tentang Kami</h3>
+          <p>
+            Terima kasih telah mengunjungi website kami.
+            Website ini merupakan hasil kerja keras dan kolaborasi dari Kelompok 4 sebagai bentuk implementasi dari pembelajaran yang telah kami jalani.
+            Semoga aplikasi yang kami buat bermanfaat dan dapat memberikan inspirasi bagi pengembangan selanjutnya.
+          <p></p> 
+          Salam hangat,
+            Kelompok 4
+          </p>
+        </div>
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-xl font-bold text-blue-600 mb-4">Link Cepat</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="hover:text-blue-600 transition">Beranda</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-blue-600 transition">Layanan</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-blue-600 transition"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-blue-600 transition">Kontak</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="text-xl font-bold text-blue-600 mb-4">Kontak Kami</h3>
+          <p>WhatsApp: +62 962 973 1590</p>
+          <p>Email: info@unesa.ac.id</p>
+          <div class="flex space-x-4 mt-4">
+            <!-- Social Media Icons -->
+            <a href="#" class="hover:text-blue-600 transition">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 4.5c-.9.4-1.8.6-2.7.8 1-0.6 1.8-1.5 2.2-2.6-.9.6-1.9 1-3 1.2-0.9-0.9-2.2-1.5-3.5-1.5-2.7 0-4.8 2.3-4.2 4.9-4-.2-7.5-2.2-9.8-5.3-1.3 2.3-.7 5.3 1.6 6.8-0.8 0-1.6-0.2-2.3-0.6v0c0 2.6 1.9 4.8 4.4 5.3-0.5 0.1-1.1 0.2-1.7 0.2-0.4 0-0.8 0-1.2-0.1 0.8 2.5 3.1 4.2 5.8 4.2-2.1 1.7-4.8 2.7-7.7 2.7-0.5 0-1 0-1.5-0.1 2.8 1.8 6.1 2.8 9.7 2.8 11.6 0 18-9.6 18-18v-0.8c1.2-0.8 2.2-1.8 3-2.9z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="hover:text-blue-600 transition">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.2 8.5 9.8v-7h-2.6v-2.8h2.6V9.5c0-2.6 1.6-4 3.9-4 1.1 0 2.2.1 2.5.1v2.8h-1.7c-1.3 0-1.6.6-1.6 1.5v2h3.2l-.4 2.8h-2.8v7C18.3 21.2 22 17 22 12z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="border-t border-gray-200 text-center text-gray-500 text-sm py-6 mt-6"
+      >
+        &copy; 2025 Usaha Anda. All rights reserved.
+      </div>
+    </footer>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+</body>
+</html>
